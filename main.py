@@ -13,8 +13,8 @@ def hello(bot, update):
 
 
 def hora(bot, update):
-    update.message.reply_text(now.hour)
-    update.message.reply_text(now.minute)
+    update.message.reply_text(
+        'horas {}:{} : {}'.format(now.hour, now.minute, now))
 
 updater = Updater('228843118:AAGk6hkBpjIW_DazSEv843WwD_SMCuOFS0M')
 
