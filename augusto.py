@@ -12,8 +12,11 @@ def chat_listener(bot, update):
     """
     text = update.message.text
     user = update.message.from_user.first_name
+    userid = update.message.from_user.id
     date = str(update.message.date)
-    print('{0} {1}:{2}'.format(date, user, text))
+    ide = str(update.message.chat_id)
+    print('{0} {1}:{2} {3}  .... {4}'.format(date, user, text, ide, userid))
+
 
 unknown_handler = MessageHandler(Filters.text, chat_listener)
 updater.dispatcher.add_handler(unknown_handler)

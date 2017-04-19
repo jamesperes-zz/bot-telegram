@@ -4,8 +4,9 @@ now = datetime.now()
 
 
 def start(bot, update):
-    update.message.reply_text('Hello World!!')
-
+    update.message.reply_text('Ola {}, bem vindo ao nosso Bot de comunicação'.format(update.message.from_user.first_name))
+    update.message.reply_text('Seu código de acesso é {}'.format(update.message.from_user.id))
+    update.message.reply_text('Favor Cadastrar em nosso sistema ')
 
 def hello(bot, update):
     update.message.reply_text(
