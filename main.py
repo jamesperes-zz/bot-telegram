@@ -17,7 +17,7 @@ def hora(bot, update):
     update.message.reply_text(
         'horas {}:{} : {}'.format(now.hour, now.minute, now))
 
-updater = Updater('228843118:AAGk6hkBpjIW_DazSEv843WwD_SMCuOFS0M')
+updater = Updater('----TOKEN AQUI-----')
 
 updater.dispatcher.add_handler(CommandHandler('start', start))
 updater.dispatcher.add_handler(CommandHandler('hello', hello))
