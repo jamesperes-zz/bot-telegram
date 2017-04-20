@@ -1,4 +1,4 @@
 import telepot
-bot = telepot.Bot('228843118:AAGk6hkBpjIW_DazSEv843WwD_SMCuOFS0M')
+bot = telepot.Bot('----TOKEN AQUI-----')
 
-bot.sendMessage(208409251, 'Hey!')
+bot.sendMessage(CHAT-ID, 'Hey!')
