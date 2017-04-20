@@ -1,7 +1,7 @@
 from telegram.ext import Updater, MessageHandler, Filters
 
 
-updater = Updater('228843118:AAGk6hkBpjIW_DazSEv843WwD_SMCuOFS0M')
+updater = Updater('----TOKEN AQUI-----')
 
 
 def chat_listener(bot, update):
