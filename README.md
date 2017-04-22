@@ -1,2 +1,5 @@
 # bot-telegram
-Repositorios de bots em scripts para Telegram
+Repositorios de bots em scripts para Telegram.
+
+
+
